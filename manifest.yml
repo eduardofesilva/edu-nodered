@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: edu-nodered
+  host: edu-nodered
+  disk_quota: 1024M
+  services:
+  - edu-nodered-cloudantNoSQLDB
+  - Language Translator-bt
+  - Conversation-5u
